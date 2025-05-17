@@ -1,11 +1,11 @@
--- 1. Créer la nouvelle table avec id auto-incrémenté
+-- 1. Créer la table article avec id auto-incrémenté
 CREATE TABLE articles (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     description TEXT,
     price REAL
 );
 
--- 2. Copier les données (en ignorant l'ancienne colonne id)
+-- 2. Insérer les données
 INSERT INTO articles (description, price) VALUES ('Malabar', 2.0);
 INSERT INTO articles (description, price) VALUES ('Fraise Tagada', 2.5);
 INSERT INTO articles (description, price) VALUES ('Carambar', 1.5);
